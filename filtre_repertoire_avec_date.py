@@ -57,8 +57,8 @@ if __name__ == '__main__':
 	    arborescence(sys.argv[1], sys.argv[2], printaccess, 2)
 	else : 
 	    print 'Option invalide'
-	print '---------- Fin --------'
+	print '---------- Fin ----------'
     else :
-	print '\nUsage :  python2 liste_date_file.py <path-to-directory> <date> <option> | ex: python2 last_modif.py repertoire/ 01/01/2021 0'
+	print '\nUsage :  python2 filtre_repertoire_avec_date.py <path-to-directory> <date> <option> | ex: python2 filtre_repertoire_avec_date.py repertoire/ 01/01/2021 0'
 	print '\nOption : 0 - toutes les options | 1 - Derniere modification | 2 - Dernier acces' 
     
