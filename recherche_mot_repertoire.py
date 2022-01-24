@@ -29,6 +29,6 @@ if __name__ == '__main__':
     if len(sys.argv) == 3 :
 	   arborescence(sys.argv[1], sys.argv[2], printfile)
     else :
-	print '\nUsage :  python2 recherche_mot.py <path-to-directory> <chaine> | ex: python2 recherche_mot.py repertoire/ chaine'
+	print '\nUsage :  python2 recherche_mot_repertoire.py <path-to-directory> <chaine> | ex: python2 recherche_mot_repertoire.py repertoire/ chaine'
 
     
